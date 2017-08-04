@@ -7,8 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
-                    {!! Form::open(['url'=>'login', 'class=>'form-horizontal']) !!}
-
+                    {!! Form::open(['url'=>'login', 'class'=>'form-horizontal']) !!}
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                         {!! Form::label('email', 'Alamat Email', ['class'=>'col-md-4 control-label']) !!}
                             <div class="col-md-6">
